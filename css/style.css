@@ -28,11 +28,11 @@
 
 }
 
-.nav_top_left{
+.nav_top_left, .nav_main_left{
   float: left;
 }
 
-.nav_top_right{
+.nav_top_right, .nav_main_right{
   float: right;
 }
 
@@ -59,4 +59,13 @@ ul > i, a, li{
   background: orange;
   color: white;
   border-radius: 10px;
+}
+
+#nav_main{
+  width: 100%;
+  height: 70px
+  content: "";
+  display: table;
+  clear: both;
+  background: white;
 }
