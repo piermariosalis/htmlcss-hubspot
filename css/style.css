@@ -2,75 +2,108 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  color: #33475b;
 }
+
 
 body{
   min-width:1400px;
 }
 
+#site_header{
+  height: 960px;
+  background: #f4f9fd;
+}
 
-.container {
-  width: 1500px;
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#site_content{
+  height: 1000px;
+}
+
+
+#site_footer{
+  height: 350px;
+}
+
+.nav_bar_top{
   margin: auto;
-}
-
-
-.header_nav{
-  width: 100%;
-  height: 700px;
-  background: lightblue;
-
-}
-
-#nav_top{
-  width: 100%;
+  width: 1500px;
   height: 70px;
-  background: #f5f8fa;
-  content: "";
-  display: table;
-  clear: both;
-  border-bottom: 2px solid black;
-
-}
-
-.nav_top_left, .nav_main_left{
-  float: left;
-}
-
-.nav_top_right, .nav_main_right{
-  float: right;
-}
-
-ul > i, a, li{
-  display: inline-block;
-}
-
-.destra, li{
-  margin-right: 20px;
-}
-
-.sinistra{
-  margin-left: 20px;
-}
-
-#padding_nocolor{
-  padding: 10px;
+  background: #f4f9fd;
   border: 1px solid black;
-  border-radius: 10px;
+
 }
 
-#padding_color{
-  padding: 10px;
-  background: orange;
-  color: white;
-  border-radius: 10px;
+.top_left, .main_left{
+  width: 75%;
+  float: left;
+
 }
 
-#nav_main{
-  width: 100%;
+.top_right, .main_right{
+width: 25%;
+float: right;
+}
+
+ul a li{
+  display: inline-block;
+  color: black;
+}
+
+.nav_bar_main{
+  margin: auto;
+  width: 1500px;
   height: 70px;
-  content: "";
-  display: table;
-  clear: both;
-  background: white;
+  background:  white;
+  border: 1px solid black;
+
+}
+
+.jumbo_logo{
+  height: 900px;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.jumbo_text{
+  margin: auto;
+  width: 1500px;
+  height: 100%;
+
+}
+
+.middle_bar{
+  height: 81px;
+  background: #afebe4;
+}
+
+.top_bottom_border{
+  margin: auto;
+  width: 1500px;
+  height: 100%;
+  background: #afebe4;
+  border-top: 4px solid #33475b;
+  border-bottom: 4px solid #33475b;
+}
+
+.title{
+  width: 500px;
+  height: 80px;
+  padding-top: 200px;
+  font-size: 25px;
+
+
+}
+
+.par{
+  width: 400px;
+  height: 80px;
+  padding-top: 250px;
 }
