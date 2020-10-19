@@ -11,9 +11,9 @@
 body{
   min-width:1400px;
 }
-
+/* SITE HEADER */
 #site_header{
-  height: 960px;
+  height: 1020px;
   background: #f4f9fd;
 }
 
@@ -28,9 +28,7 @@ li{
   padding: 35px 0 35px;
 }
 
-#site_content{
-  height: 1000px;
-}
+
 
 
 #site_footer{
@@ -113,20 +111,6 @@ ul a li{
 
 }
 
-.middle_bar{
-  height: 81px;
-  background: #afebe4;
-}
-
-.top_bottom_border{
-  margin: auto;
-  width: 1500px;
-  height: 100%;
-  background: #afebe4;
-  border-top: 4px solid #33475b;
-  border-bottom: 4px solid #33475b;
-}
-
 .title{
   width: 500px;
   height: 80px;
@@ -141,3 +125,54 @@ ul a li{
   height: 80px;
   padding-top: 250px;
 }
+
+/* /SITE HEADER */
+
+/* SITE CONTENT */
+
+#site_content{
+  height: 1000px;
+  background: #f4f9fd;
+}
+
+.middle_bar{
+  height: 81px;
+  background: #afebe4;
+}
+
+.top_bottom_border{
+  margin: auto;
+  width: 1500px;
+  height: 100%;
+  background: #afebe4;
+  border-top: 4px solid #33475b;
+  border-bottom: 4px solid #33475b;
+}
+
+
+
+.cube_center{
+  height: 600px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#cubo{
+  width: 525px;
+  height: 300px;
+}
+
+
+.body_cube{
+  width: 1500px;
+  margin: auto;
+  position: relative;
+}
+
+.cubo_text{
+  width: 525px;
+  position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }  
