@@ -44,7 +44,7 @@ li{
 }
 
 .top_left, .main_left{
-  width: 75%;
+  width: auto;
   float: left;
 
 }
@@ -79,19 +79,23 @@ width: auto;
 float: right;
 }
 
-
+.main_right a {
+  margin-left: 20px;
+}
 
 ul a li{
   display: inline-block;
-  color: black;
+}
+
+.nav_main_container{
+  background:  white;
+
 }
 
 .nav_bar_main{
   margin: auto;
   width: 1500px;
-  height: 70px;
   background:  white;
-  border: 1px solid black;
 
 }
 
