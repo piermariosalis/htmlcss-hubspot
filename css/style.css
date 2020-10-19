@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
   color: #33475b;
 }
 
@@ -22,6 +23,11 @@ body{
   clear: both;
 }
 
+li{
+  display: inline-block;
+  padding: 35px 0 35px;
+}
+
 #site_content{
   height: 1000px;
 }
@@ -34,10 +40,7 @@ body{
 .nav_bar_top{
   margin: auto;
   width: 1500px;
-  height: 70px;
   background: #f4f9fd;
-  border: 1px solid black;
-
 }
 
 .top_left, .main_left{
@@ -46,10 +49,37 @@ body{
 
 }
 
+.top_left a{
+  margin-right: 20px;
+}
+
+#log_in{
+  padding: 10px;
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+#get_free{
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  background: #fe775a;
+  border-radius: 4px;
+}
+
+#vl{
+  padding-right: 20px;
+  border-right: 2px solid #33475b;
+}
+
 .top_right, .main_right{
-width: 25%;
+width: auto;
 float: right;
 }
+
+
 
 ul a li{
   display: inline-block;
