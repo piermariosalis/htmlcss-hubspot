@@ -578,10 +578,60 @@ hr{
   float: left;
 }
 
+.info_link ul {
+  margin-bottom: 50px;
+}
+
 .link_footer{
   margin-bottom: -50px;
 }
 
 .link_footer a{
   color: #c3cfdb;
+}
+
+#support{
+  background-color: #c3cfdb;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+}
+
+.social{
+  width: 96%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.language{
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid #c3cfdb;
+  text-align: center;
+}
+
+.language a{
+  color: #c3cfdb;
+  margin-right: 20px;
+}
+
+.subfooter{
+  width: 1500px;
+  margin: auto;
+}
+
+.left{
+  float: left;
+  margin-top: 40px;
+}
+
+.right{
+  float: right;
+  margin-top: 40px;
+}
+
+.right a{
+  color: #c3cfdb;
+  margin-left: 20px;
 }
