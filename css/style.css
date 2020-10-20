@@ -250,3 +250,29 @@ hr{
 .text_box2 i{
   color: #fe775a;
 }
+
+
+.cont_columns{
+  width: 1500px;
+  margin: auto;
+  background: #f4f9fd;
+  border: 1px solid black;
+}
+
+.col_1, .col_2, .col_3{
+  width: 33%;
+  height: 600px;
+  background: white;
+  float: left;
+  border: 1px solid black;
+}
+
+#img_marketing, #img_service{
+  width: 188px;
+  margin: auto;
+}
+
+#img_sales{
+  width: 250px;
+  margin: auto;
+}
