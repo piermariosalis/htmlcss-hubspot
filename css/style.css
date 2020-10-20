@@ -420,6 +420,24 @@ hr{
   text-align: center;
 }
 
+.table_content_none{
+  width: 25%;
+  height: 201px;
+  margin: auto;
+  float: left;
+  text-align: center;
+  border-bottom: 1px solid white;
+
+}
+
+.table_content_right_none{
+  width: 25%;
+  height: 201px;
+  margin: auto;
+  float: left;
+  text-align: center;
+}
+
 #icon{
   height: auto;
   margin-top: 30px;
@@ -444,6 +462,30 @@ hr{
 }
 
 .table_content_right h5{
+  color: white;
+  margin-bottom: 30px;
+
+}
+
+.table_content_none h2{
+  color: white;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.table_content_none h5{
+  color: white;
+  margin-bottom: 30px;
+
+}
+
+.table_content_right_none h2{
+  color: white;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.table_content_right_none h5{
   color: white;
   margin-bottom: 30px;
 
