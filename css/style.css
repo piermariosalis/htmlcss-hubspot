@@ -374,3 +374,21 @@ hr{
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   margin-top: 58px;
 }
+
+.gradient_title{
+  width: 1125px;
+  height: 300px;
+  margin: auto;
+  padding-top: 60px;
+}
+.gradient_title h2{
+  text-align: center;
+  color: white;
+  font-size: 34px;
+}
+
+.gradient_title p{
+  text-align: center;
+  color: white;
+  margin-top: 48px;
+}
