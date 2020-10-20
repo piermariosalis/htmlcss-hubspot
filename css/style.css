@@ -260,14 +260,23 @@ hr{
 }
 
 .col_1, .col_2, .col_3{
-  width: 33%;
-  height: 600px;
+  width: 33.33%;
+  height: 800px;
   background: white;
   float: left;
   border: 1px solid black;
+  /* padding: 0 60px; */
 }
 
-#img_marketing, #img_service{
+
+#img_marketing{
+  width: 200px;
+  height: 137px;
+  margin: auto;
+}
+
+
+#img_service{
   width: 188px;
   margin: auto;
 }
@@ -275,4 +284,17 @@ hr{
 #img_sales{
   width: 250px;
   margin: auto;
+}
+
+.title_column{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 26px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid black;
+}
+
+.title_column h2{
+  padding-bottom: 20px;
 }
