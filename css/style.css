@@ -227,7 +227,15 @@ border-radius: 10px;
   padding-bottom: 25px;
 }
 
+hr, h3{
+  display: inline-block;
+}
 
+hr{
+  width: 620px;
+  height: 1px;
+  margin-left: 30px;
+}
 
 .text_box2{
   width: 1000px;
