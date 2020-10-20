@@ -298,3 +298,26 @@ hr{
 .title_column h2{
   padding-bottom: 20px;
 }
+
+
+.popolar{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.check_list{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.check_list li{
+  padding: 0;
+}
+
+.check_list i{
+  color: #fe775a;
+}
